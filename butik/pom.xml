@@ -76,6 +76,7 @@
                     </includes>
                     <argLine>-Xmx512m</argLine>
                     <parallel>classes</parallel>
+                    <threadCountClasses>2</threadCountClasses>
                 </configuration>
                 <executions>
                     <execution>
