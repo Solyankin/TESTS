@@ -17,7 +17,7 @@ public class типы_фильтров_1 extends UserStory {
 
     @When("Пользователь применяет любой фильтр")
     public void пользователь_применяет_любой_фильтр() {
-        user.openUrl("http://ya.ru");
+        user.openUrl("http://google.com");
         System.out.println("&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& Пользователь применяет любой фильтр второй тест");
     }
 
