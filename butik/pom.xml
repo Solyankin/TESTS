@@ -75,8 +75,8 @@
                         <include>**/When*.java</include>
                     </includes>
                     <argLine>-Xmx512m</argLine>
-                    <parallel>classes</parallel>
-                    <threadCount>2</threadCount>
+                    <forkMode>perthread</forkMode>
+                    <threadCount>4</threadCount>
                 </configuration>
                 <executions>
                     <execution>

@@ -6,8 +6,10 @@
 package ru.butik.фильтрация_сортировка_теги.типы_фильтров;
 
 import com.uisteps.thucydides.run.UserStory;
+import com.uisteps.thucydides.run.UserTest;
 import org.jbehave.core.annotations.Then;
 import org.jbehave.core.annotations.When;
+import org.junit.Test;
 
 /**
  *

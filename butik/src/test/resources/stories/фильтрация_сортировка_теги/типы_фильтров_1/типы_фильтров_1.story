@@ -1,4 +1,4 @@
-Scenario: Применение фильтра
+Scenario: Применение фильтра_1
 
 Meta:
 @issues #BW-10 
