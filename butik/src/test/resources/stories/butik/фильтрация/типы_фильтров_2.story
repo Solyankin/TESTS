@@ -2,6 +2,7 @@ Scenario: Применение фильтра_2
 
 Meta:
 @issues #BW-10 
+@tags #BW-10
 @serv butik.ru
 
 When Пользователь применяет любой фильтр <serv>

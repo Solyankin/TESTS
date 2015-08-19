@@ -2,6 +2,7 @@ Scenario: Применение фильтра
 
 Meta:
 @issues #BW-11 
+@tags #BW-11 
 @serv ya.ru
 
 When Пользователь применяет любой фильтр <serv>
