@@ -1,7 +1,7 @@
 Scenario: Применение фильтра
 
 Meta:
-@issues #BW-10 
+@issues #BW-11 
 @serv ya.ru
 
 When Пользователь применяет любой фильтр <serv>
