@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ru.butik.фильтрация_сортировка_теги.типы_фильтров_1;
+package ru.butik.фильтрация;
 
 import com.uisteps.thucydides.run.UserStory;
 import com.uisteps.thucydides.run.UserTest;
@@ -15,12 +15,12 @@ import org.junit.Test;
  *
  * @author A.Solyankin
  */
-public class типы_фильтров_1 extends UserStory {
+public class типы_фильтров_2 extends UserStory {
 
-    @When("Пользователь применяет любой фильтр")
-    public void пользователь_применяет_любой_фильтр() {
-        user.openUrl("http://google.com");
-        System.out.println("&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& Пользователь применяет любой фильтр второй тест");
+    @When("Пользователь применяет любой фильтр <serv>")
+    public void пользователь_применяет_любой_фильтр(String serv) {
+        user.openUrl("http://" + serv);
+        System.out.println("&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& Пользователь применяет любой фильтр первый тест");
     }
 
     @Then("Сайт отображает строку 'Ваш выбор'")
