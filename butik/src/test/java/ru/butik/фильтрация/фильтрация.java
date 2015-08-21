@@ -15,7 +15,7 @@ import org.junit.Test;
  *
  * @author A.Solyankin
  */
-public class типы_фильтров_2 extends UserStory {
+public class фильтрация extends UserStory {
 
     @When("Пользователь применяет любой фильтр <serv>")
     public void пользователь_применяет_любой_фильтр(String serv) {
