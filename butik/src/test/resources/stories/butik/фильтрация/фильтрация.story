@@ -1,6 +1,3 @@
-Meta:
-@te
-
 Scenario: Применение фильтра_1 BW-12
 
 Meta:
