@@ -66,9 +66,9 @@
                 <version>2.12</version>
                 <configuration>
                     <skip>true</skip>
-                    <parallel>classes</parallel>
+             <!--       <parallel>classes</parallel>
                     <perCoreThreadCount>true</perCoreThreadCount>
-                    <threadCount>2</threadCount>
+                    <threadCount>2</threadCount> -->
                 </configuration>
             </plugin>
             <plugin>
@@ -82,8 +82,13 @@
                         <include>**/When*.java</include>
                     </includes>
                     <argLine>-Xmx512m</argLine>
-                    <forkMode>perthread</forkMode>
-                    <threadCount>4</threadCount>
+                <!--<forkCount>4</forkCount>-->
+                   <forkMode>perthread</forkMode>
+                   <threadCount>4</threadCount> 
+                   <systemProperties>
+                       <metafilter>
+                       </metafilter>
+                   </systemProperties>>
                 </configuration>
                 <executions>
                     <execution>
