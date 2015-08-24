@@ -86,8 +86,7 @@
                    <forkMode>perthread</forkMode>
                    <threadCount>4</threadCount> 
                    <systemProperties>
-                       <metafilter>
-                       </metafilter>
+                       <metafilter></metafilter>
                    </systemProperties>>
                 </configuration>
                 <executions>
