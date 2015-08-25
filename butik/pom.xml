@@ -25,7 +25,7 @@
         <dependency>
             <groupId>org.uisteps</groupId>
             <artifactId>uisteps</artifactId>
-            <version>1.1</version>
+            <version>1.4</version>
             <type>jar</type>
         </dependency>
         <dependency>
