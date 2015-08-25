@@ -18,7 +18,7 @@
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
         <thucydides.version>0.9.275</thucydides.version>
-        <metafiler></metafiler>
+        <metafilter></metafilter>
     </properties>
 	
     <dependencies>
@@ -87,7 +87,7 @@
                    <forkMode>perthread</forkMode>
                    <threadCount>4</threadCount> 
                    <systemProperties>
-                       <metafilter>${metafiler}</metafilter>
+                       <metafilter>${metafilter}</metafilter>
                    </systemProperties>>
                 </configuration>
                 <executions>
