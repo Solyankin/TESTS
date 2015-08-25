@@ -25,7 +25,7 @@
         <dependency>
             <groupId>org.uisteps</groupId>
             <artifactId>uisteps</artifactId>
-            <version>1.4</version>
+            <version>1.5</version>
             <type>jar</type>
         </dependency>
         <dependency>
@@ -50,13 +50,6 @@
             <artifactId>fest-assert</artifactId>
             <version>1.4</version>
         </dependency>
-        <dependency>
-            <groupId>com.github.klieber</groupId>
-            <artifactId>phantomjs</artifactId>
-            <version>2.0.0</version>
-            <type>zip</type>
-            <classifier>macosx-fix01</classifier>
-        </dependency>
     </dependencies>
     
     <build>
@@ -67,9 +60,6 @@
                 <version>2.12</version>
                 <configuration>
                     <skip>true</skip>
-             <!--       <parallel>classes</parallel>
-                    <perCoreThreadCount>true</perCoreThreadCount>
-                    <threadCount>2</threadCount> -->
                 </configuration>
             </plugin>
             <plugin>
@@ -83,7 +73,6 @@
                         <include>**/When*.java</include>
                     </includes>
                     <argLine>-Xmx512m</argLine>
-                <!--<forkCount>4</forkCount>-->
                    <forkMode>perthread</forkMode>
                    <threadCount>4</threadCount> 
                    <systemProperties>
